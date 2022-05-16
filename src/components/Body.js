@@ -9,7 +9,7 @@ const Body = () => {
       href: "https://www.linkedin.com/in/jogu/",
     },
     {
-      name: "Github",
+      name: "Github ",
       href: "https://github.com/jogusland",
     },
     {
