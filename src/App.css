@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+img {
+  margin: 15px;
+}
+
+.img-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.img-social {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grey {
+  color: rgb(194, 189, 189);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: block;
+  width: 80%;
+  max-width: 900px;
+  padding: 18px;
+  background: rgba(170, 154, 12, 0.802);
+  margin: 0 auto;
+  border-radius: 15px;
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  opacity: 100;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+a:hover {
+  background: rgb(226, 226, 22);
+  color: white;
+  animation-name: scale;
+  animation-duration: 1s;
+}
+
+img:hover {
+  transform: rotate(2deg);
+  animation-name: rotate;
+  animation-duration: 2s;
+}
