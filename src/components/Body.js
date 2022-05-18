@@ -1,7 +1,7 @@
 import Instagram from "../images/social-media/Instagram/insta.svg";
 import Github from "../images/social-media/github.svg";
 import LinkedIn from "../images/social-media/linkedin.svg";
-// import Facebook from "../images/social-media/facebook-logo.png";
+import Facebook from "../images/social-media/Facebook/facebook-logo.jpg";
 import Twitter from "../images/social-media/twitter.svg";
 import classes from "./Body.module.css";
 
@@ -9,6 +9,7 @@ const Body = () => {
   const info = [
     {
       name: "Portfolio Website",
+      img: "",
       href: "https://jogusland.github.io/myportfolio/",
     },
     {
@@ -23,6 +24,7 @@ const Body = () => {
     },
     {
       name: "Certificate",
+      img: "",
       href: "https://www.credential.net/475ed24b-f8ab-4f7e-83d5-709f66e1e9de",
     },
     {
@@ -32,16 +34,17 @@ const Body = () => {
     },
     {
       name: "For Sale",
+      img: "",
       href: "https://jogusland.github.io/for-sale/",
     },
     {
       name: "Jogu TV",
-      // img: Facebook,
+      img: Facebook,
       href: "https://www.facebook.com/jogusland",
     },
     {
       name: "Joni Developer",
-      // img: Facebook,
+      img: Facebook,
       href: "https://www.facebook.com/joniDeveloper",
     },
     {
@@ -56,25 +59,35 @@ const Body = () => {
     },
     {
       name: "Club House: @jonislg",
+      img: "",
       href: "https://www.clubhouse.com/@jonislg?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
     },
     {
       name: "Opensea",
+      img: "",
       href: "https://opensea.io/jonisland",
     },
   ];
 
   const listItems = info.map((item) => {
+    let image = <img src={item.img} alt={item.name} />;
+
+    if (item.img === "") {
+      image = "";
+    }
+
     return (
       <h3 key={Math.random()}>
-        {/* <img src={item.img} alt={item.name} /> */}
-        <a href={item.href}>{item.name}</a>
+        <a href={item.href} className="itemContainer">
+          <div>{image}</div>
+          <div>{item.name}</div>
+        </a>
       </h3>
     );
   });
 
   return (
-    <main className={`${classes} container flex `}>
+    <main className={`${classes} container flex`}>
       <div>{listItems}</div>
       <h4 className="grey">Video Editing: @windowlightmedia</h4>
     </main>
