@@ -67,7 +67,7 @@ const Body = () => {
   const listItems = info.map((item) => {
     return (
       <h3 key={Math.random()}>
-        <img src={item.img} alt={item.name} />
+        {/* <img src={item.img} alt={item.name} /> */}
         <a href={item.href}>{item.name}</a>
       </h3>
     );
