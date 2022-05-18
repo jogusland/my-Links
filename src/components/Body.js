@@ -1,3 +1,10 @@
+import Instagram from "../images/social-media/Instagram/insta.svg";
+import Github from "../images/social-media/github.svg";
+import LinkedIn from "../images/social-media/linkedin.svg";
+// import Facebook from "../images/social-media/facebook-logo.png";
+import Twitter from "../images/social-media/twitter.svg";
+import classes from "./Body.module.css";
+
 const Body = () => {
   const info = [
     {
@@ -6,10 +13,12 @@ const Body = () => {
     },
     {
       name: "LinkedIn",
+      img: LinkedIn,
       href: "https://www.linkedin.com/in/jogu/",
     },
     {
       name: "Github ",
+      img: Github,
       href: "https://github.com/jogusland",
     },
     {
@@ -18,6 +27,7 @@ const Body = () => {
     },
     {
       name: "Web Dev Insta",
+      img: Instagram,
       href: "https://www.instagram.com/joni_developer/",
     },
     {
@@ -26,18 +36,22 @@ const Body = () => {
     },
     {
       name: "Jogu TV",
+      // img: Facebook,
       href: "https://www.facebook.com/jogusland",
     },
     {
       name: "Joni Developer",
+      // img: Facebook,
       href: "https://www.facebook.com/joniDeveloper",
     },
     {
       name: "Twitter",
+      img: Twitter,
       href: "https://twitter.com/jogu253",
     },
     {
       name: "Instagram",
+      img: Instagram,
       href: "https://www.instagram.com/joni_ye576/",
     },
     {
@@ -50,15 +64,18 @@ const Body = () => {
     },
   ];
 
+  const listItems = info.map((item) => {
+    return (
+      <h3 key={Math.random()}>
+        <img src={item.img} alt={item.name} />
+        <a href={item.href}>{item.name}</a>
+      </h3>
+    );
+  });
+
   return (
-    <main className="container flex">
-      {info.map((link) => {
-        return (
-          <h3>
-            <a href={link.href}>{link.name}</a>
-          </h3>
-        );
-      })}
+    <main className={`${classes} container flex `}>
+      <div>{listItems}</div>
       <h4 className="grey">Video Editing: @windowlightmedia</h4>
     </main>
   );
