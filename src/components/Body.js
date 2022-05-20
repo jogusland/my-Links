@@ -1,15 +1,19 @@
-import Instagram from "../images/social-media/Instagram/insta.svg";
-import Github from "../images/social-media/github.svg";
-import LinkedIn from "../images/social-media/linkedin.svg";
-import Facebook from "../images/social-media/Facebook/facebook-logo.jpg";
-import Twitter from "../images/social-media/twitter.svg";
+import Instagram from "../images/icons/social-media/Instagram/insta.svg";
+import Github from "../images/icons/social-media/github.svg";
+import LinkedIn from "../images/icons/social-media/linkedin.svg";
+import Facebook from "../images/icons/social-media/Facebook/facebook-logo.jpg";
+import Twitter from "../images/icons/social-media/twitter.svg";
+import Clubhouse from "../images/icons/social-media/Clubhouse/clubhouse-logo.jpg";
+import Certificate from "../images/icons/certificate/certificate.svg";
+import Website from "../images/icons/website/website.svg";
+import Sale from "../images/icons/sale/sale-icon.svg";
 import classes from "./Body.module.css";
 
 const Body = () => {
   const info = [
     {
       name: "Portfolio Website",
-      img: "",
+      img: Website,
       href: "https://jogusland.github.io/myportfolio/",
     },
     {
@@ -24,7 +28,7 @@ const Body = () => {
     },
     {
       name: "Certificate",
-      img: "",
+      img: Certificate,
       href: "https://www.credential.net/475ed24b-f8ab-4f7e-83d5-709f66e1e9de",
     },
     {
@@ -34,7 +38,7 @@ const Body = () => {
     },
     {
       name: "For Sale",
-      img: "",
+      img: Sale,
       href: "https://jogusland.github.io/for-sale/",
     },
     {
@@ -59,7 +63,7 @@ const Body = () => {
     },
     {
       name: "Club House: @jonislg",
-      img: "",
+      img: Clubhouse,
       href: "https://www.clubhouse.com/@jonislg?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
     },
     {

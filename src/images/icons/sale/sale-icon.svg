@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="0" y="0" width="600" height="600" style="fill:rgb(45,154,249);"/>
+    <g id="Tag" transform="matrix(1.06183,0,0,1.06183,-2.3451,14.0051)">
+        <path d="M270.989,142.394L123,300L252.69,429.69L405.487,276.892L270.989,142.394Z" style="fill:white;"/>
+        <g transform="matrix(0.999982,-0.00608126,0.00608126,0.999982,-2.26863,2.0646)">
+            <path d="M405.487,276.892L405.487,142.394L272.244,142.394L405.487,276.892Z" style="fill:white;"/>
+        </g>
+        <g transform="matrix(0.809035,-0.168755,0.204193,0.978931,35.4843,61.5157)">
+            <rect x="353" y="140.667" width="17" height="23.333" style="fill:rgb(45,154,249);"/>
+        </g>
+        <g transform="matrix(1.10882,0,0,1.11875,-46.3551,35.6536)">
+            <text x="227.91px" y="278.021px" style="font-family:'HoboStd', 'Hobo Std', sans-serif;font-weight:500;font-size:144px;fill:rgb(45,154,249);">%</text>
+        </g>
+        <g transform="matrix(1.29808,0,0,1.20588,-123.443,-41.7647)">
+            <circle cx="377" cy="181" r="17" style="fill:rgb(45,154,249);"/>
+        </g>
+        <g transform="matrix(0.812324,0,0,0.926842,66.735,7.97383)">
+            <path d="M364,176.5C364,176.5 337.741,108.301 378,109C418.259,109.699 477.621,122.698 466,167L461,169L464,164L465,156C465,156 465.127,114.347 378,113C378,113 346.357,104.97 368,176.5C368,176.5 366.981,178.39 364,176.5Z" style="fill:white;stroke:white;stroke-width:4.32px;"/>
+        </g>
+    </g>
+</svg>
