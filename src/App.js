@@ -1,12 +1,14 @@
 import "./App.css";
-import Body from "./components/Body";
+import Career from "./components/Career";
+import Personal from "./components/Personal";
 import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <Career />
+      <Personal />
     </div>
   );
 }

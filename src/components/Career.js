@@ -1,13 +1,10 @@
-import Instagram from "../images/icons/social-media/Instagram/insta.svg";
-import Github from "../images/icons/social-media/github.svg";
 import LinkedIn from "../images/icons/social-media/linkedin.svg";
-import Facebook from "../images/icons/social-media/Facebook/facebook-logo.jpg";
-import Twitter from "../images/icons/social-media/twitter.svg";
-import Clubhouse from "../images/icons/social-media/Clubhouse/clubhouse-logo.jpg";
 import Certificate from "../images/icons/certificate/certificate.svg";
 import Website from "../images/icons/website/website.svg";
-import Sale from "../images/icons/sale/sale-icon.svg";
-import classes from "./Body.module.css";
+import Facebook from "../images/icons/social-media/Facebook/facebook.jpg";
+import Github from "../images/icons/social-media/github.svg";
+import Instagram from "../images/icons/social-media/Instagram/insta.svg";
+import classes from "./Career.module.css";
 
 const Body = () => {
   const info = [
@@ -37,14 +34,9 @@ const Body = () => {
       href: "https://www.instagram.com/joni_developer/",
     },
     {
-      name: "For Sale",
-      img: Sale,
-      href: "https://jogusland.github.io/for-sale/",
-    },
-    {
-      name: "Jogu TV",
-      img: Facebook,
-      href: "https://www.facebook.com/jogusland",
+      name: "Instagram",
+      img: Instagram,
+      href: "https://www.instagram.com/joni_ye576/",
     },
     {
       name: "Joni Developer",
@@ -52,24 +44,14 @@ const Body = () => {
       href: "https://www.facebook.com/joniDeveloper",
     },
     {
-      name: "Twitter",
-      img: Twitter,
-      href: "https://twitter.com/jogu253",
-    },
-    {
-      name: "Instagram",
-      img: Instagram,
-      href: "https://www.instagram.com/joni_ye576/",
-    },
-    {
-      name: "Club House: @jonislg",
-      img: Clubhouse,
-      href: "https://www.clubhouse.com/@jonislg?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
-    },
-    {
       name: "Opensea",
       img: "",
       href: "https://opensea.io/jonisland",
+    },
+    {
+      name: "Youtube",
+      img: "",
+      href: "https://www.youtube.com/user/kelebew/videos",
     },
   ];
 
@@ -93,7 +75,6 @@ const Body = () => {
   return (
     <main className={`${classes} container flex`}>
       <div>{listItems}</div>
-      <h4 className="grey">Video Editing: @windowlightmedia</h4>
     </main>
   );
 };

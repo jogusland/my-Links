@@ -1,0 +1,18 @@
+.container {
+  margin: auto;
+  text-align: center;
+  width: 70vw;
+  height: 30vh;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.list {
+  min-width: 150px;
+  width: 200px;
+  margin: 10px 0;
+}
