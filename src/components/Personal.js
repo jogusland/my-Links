@@ -53,6 +53,8 @@ const Body = () => {
 
   return (
     <main className={`${classes.container} flex`}>
+      <h2 className={classes.section}>Personal</h2>
+
       <div className={classes.listContainer}>{listItems}</div>
     </main>
   );

@@ -5,6 +5,10 @@
   height: 30vh;
 }
 
+.section {
+  text-align: left;
+}
+
 .listContainer {
   display: flex;
   justify-content: space-around;
@@ -14,5 +18,5 @@
 .list {
   min-width: 150px;
   width: 200px;
-  margin: 10px 0;
+  margin: 15px 0;
 }

@@ -34,11 +34,6 @@ const Body = () => {
       href: "https://www.instagram.com/joni_developer/",
     },
     {
-      name: "Instagram",
-      img: Instagram,
-      href: "https://www.instagram.com/joni_ye576/",
-    },
-    {
       name: "Joni Developer",
       img: Facebook,
       href: "https://www.facebook.com/joniDeveloper",
@@ -73,7 +68,8 @@ const Body = () => {
   });
 
   return (
-    <main className={`${classes} container flex`}>
+    <main className={`${classes.container}  flex`}>
+      <h2 className={classes.section}>Career</h2>
       <div>{listItems}</div>
     </main>
   );
