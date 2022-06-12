@@ -10,7 +10,7 @@ html {
 }
 
 img {
-  margin: 15px;
+  margin: 5px;
 }
 
 .img-profile {
@@ -43,7 +43,7 @@ a {
   display: block;
   width: 80%;
   max-width: 900px;
-  padding: 18px;
+  padding: 10px;
   background: rgba(170, 154, 12, 0.802);
   margin: 0 auto;
   border-radius: 15px;

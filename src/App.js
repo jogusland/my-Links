@@ -1,7 +1,7 @@
-import "./App.css";
-import Career from "./components/Career";
-import Personal from "./components/Personal";
+import Career from "./components/Body/Career";
+import Personal from "./components/Body/Personal";
 import Header from "./components/Header";
+import "./App.css";
 
 function App() {
   return (

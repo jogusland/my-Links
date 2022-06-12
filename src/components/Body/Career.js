@@ -1,12 +1,13 @@
-import LinkedIn from "../images/icons/social-media/linkedin.svg";
-import Certificate from "../images/icons/certificate/certificate.svg";
-import Website from "../images/icons/website/website.svg";
-import Facebook from "../images/icons/social-media/Facebook/facebook.jpg";
-import Github from "../images/icons/social-media/github.svg";
-import Instagram from "../images/icons/social-media/Instagram/insta.svg";
+import LinkedIn from "../../images/icons/social-media/linkedin.svg";
+import Certificate from "../../images/icons/certificate/certificate.svg";
+import Website from "../../images/icons/website/website.svg";
+import Facebook from "../../images/icons/social-media/Facebook/facebook.jpg";
+import Github from "../../images/icons/social-media/github.svg";
+import Instagram from "../../images/icons/social-media/Instagram/insta.svg";
+import ListItems from "../Handler/ListItemsHandler";
 import classes from "./Career.module.css";
 
-const Body = () => {
+const Career = () => {
   const info = [
     {
       name: "Portfolio Website",
@@ -50,29 +51,12 @@ const Body = () => {
     },
   ];
 
-  const listItems = info.map((item) => {
-    let image = <img src={item.img} alt={item.name} />;
-
-    if (item.img === "") {
-      image = "";
-    }
-
-    return (
-      <h3 key={Math.random()}>
-        <a href={item.href} className="itemContainer">
-          <div>{image}</div>
-          <div>{item.name}</div>
-        </a>
-      </h3>
-    );
-  });
-
   return (
     <main className={`${classes.container}  flex`}>
       <h2 className={classes.section}>Career</h2>
-      <div>{listItems}</div>
+      <ListItems info={info} classes={classes} />
     </main>
   );
 };
 
-export default Body;
+export default Career;

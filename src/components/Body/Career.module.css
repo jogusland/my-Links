@@ -15,6 +15,10 @@ img {
   text-align: left;
 }
 
+.list {
+  margin: 10px;
+}
+
 .classes .itemContainer {
   color: black;
   display: flex;
