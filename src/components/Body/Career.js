@@ -49,6 +49,11 @@ const Career = () => {
       img: "",
       href: "https://www.youtube.com/user/kelebew/videos",
     },
+    {
+      name: "Medium",
+      img: "",
+      href: "https://medium.com/@jonatguerrero",
+    },
   ];
 
   return (
