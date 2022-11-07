@@ -35,7 +35,7 @@ img {
 }
 
 a {
-  border: outset 5px gold;
+  border: outset 4.5px gold;
 
   display: block;
   padding: 10px;
@@ -80,7 +80,10 @@ a:hover {
   background: #4a0404;
   animation-name: scale;
   animation-duration: 10s;
-  border: inset 5px gold;
+}
+
+a:active {
+  border: inset 4.5px gold;
 }
 
 img:hover {
