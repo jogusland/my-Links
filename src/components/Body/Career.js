@@ -16,6 +16,11 @@ const Career = () => {
       href: "https://jonicoder1.github.io/myportfolio/",
     },
     {
+      name: "Instagram",
+      img: Instagram,
+      href: "https://www.instagram.com/jonicoder/",
+    },
+    {
       name: "LinkedIn",
       img: LinkedIn,
       href: "https://www.linkedin.com/in/jonicoder/",
@@ -31,11 +36,6 @@ const Career = () => {
       href: "https://www.credential.net/475ed24b-f8ab-4f7e-83d5-709f66e1e9de",
     },
     {
-      name: "Instagram",
-      img: Instagram,
-      href: "https://www.instagram.com/jonicoder/",
-    },
-    {
       name: "Facebook",
       img: Facebook,
       href: "https://www.facebook.com/jonicoder",
@@ -44,11 +44,6 @@ const Career = () => {
       name: "Youtube",
       img: Youtube,
       href: "https://www.youtube.com/user/kelebew/videos",
-    },
-    {
-      name: "Opensea",
-      img: "",
-      href: "https://opensea.io/jonicoder",
     },
     {
       name: "Medium",

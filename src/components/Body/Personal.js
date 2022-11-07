@@ -13,9 +13,9 @@ const Personal = () => {
       href: "https://www.instagram.com/jonicoder/",
     },
     {
-      name: "Sale",
-      img: Sale,
-      href: "https://jonicoder1.github.io/for-sale/",
+      name: "Twitter",
+      img: Twitter,
+      href: "https://twitter.com/jonicoder",
     },
     {
       name: "JoguTV",
@@ -23,14 +23,19 @@ const Personal = () => {
       href: "https://www.facebook.com/jonicoder",
     },
     {
-      name: "Twitter",
-      img: Twitter,
-      href: "https://twitter.com/jonicoder",
+      name: "Sale",
+      img: Sale,
+      href: "https://jonicoder1.github.io/for-sale/",
     },
     {
       name: "Club House",
       img: Clubhouse,
       href: "https://www.clubhouse.com/@jonicoder?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
+    },
+    {
+      name: "Opensea",
+      img: "",
+      href: "https://opensea.io/jonicoder",
     },
   ];
 
