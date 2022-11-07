@@ -1,55 +1,57 @@
-import Instagram from "../../images/icons/social-media/Instagram/insta.svg";
+import Instagram from "../../images/icons/social-media/Instagram/insta.jpg";
 import Twitter from "../../images/icons/social-media/twitter.svg";
 import Clubhouse from "../../images/icons/social-media/Clubhouse/clubhouse-logo.jpg";
 import Sale from "../../images/icons/sale/sale-icon.svg";
 import Facebook from "../../images/icons/social-media/Facebook/facebook.jpg";
-import ListItemsHandler from "../Handler/ListItemsHandler";
 import classes from "./Personal.module.css";
-
-import React, { useState } from "react";
 
 const Personal = () => {
   const info = [
     {
-      name: "Instagram",
+      name: "Insta",
       img: Instagram,
-      href: "https://www.instagram.com/joni_ye588/",
+      href: "https://www.instagram.com/jonicoder/",
     },
     {
-      name: "For Sale",
+      name: "Sale",
       img: Sale,
-      href: "https://jogusland.github.io/for-sale/",
+      href: "https://jonicoder1.github.io/for-sale/",
     },
     {
-      name: "Jogu TV",
+      name: "JoguTV",
       img: Facebook,
-      href: "https://www.facebook.com/jogusland",
+      href: "https://www.facebook.com/jonicoder",
     },
     {
       name: "Twitter",
       img: Twitter,
-      href: "https://twitter.com/jogu253",
+      href: "https://twitter.com/jonicoder",
     },
     {
       name: "Club House",
       img: Clubhouse,
-      href: "https://www.clubhouse.com/@jonislg?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
+      href: "https://www.clubhouse.com/@jonicoder?utm_medium=ch_profile&utm_campaign=XM8lUYLB2PQCY6yCM09EmA-192269",
     },
   ];
 
-  // const [button, changeButton] = useState("Hello");
-
-  // const changeHandler = () => {
-  //   changeButton("I changed the button");
-  //   console.log(button);
-  // };
-
   return (
     <main className={`${classes.container} flex`}>
-      <h2 className={classes.section}>Personal</h2>
-      {/* <button onClick={changeHandler}>{button}</button> */}
+      <h2 className={classes.h2}>PERSONAL</h2>
       <div className={classes.listContainer}>
-        <ListItemsHandler info={info} classes={classes} />
+        {info.map((item) => {
+          let image = <img src={item.img} alt={item.name} />;
+          if (item.img === "") {
+            image = "";
+          }
+          return (
+            <div key={Math.random()} className={classes.list}>
+              <a href={item.href}>
+                <div>{image}</div>
+                <p>{item.name}</p>
+              </a>
+            </div>
+          );
+        })}
       </div>
     </main>
   );

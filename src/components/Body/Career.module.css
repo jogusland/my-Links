@@ -1,6 +1,4 @@
 .container {
-  margin: auto;
-  width: 70vw;
   text-align: center;
 }
 
@@ -11,16 +9,10 @@ img {
   margin: 0;
 }
 
-.section {
+.h2 {
   text-align: left;
 }
 
 .list {
-  margin: 10px;
-}
-
-.classes .itemContainer {
-  color: black;
-  display: flex;
-  flex-direction: row;
+  margin: 5px 0;
 }

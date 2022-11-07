@@ -4,19 +4,18 @@
   box-sizing: border-box;
 }
 
+.App {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Avenir";
   letter-spacing: 1.5px;
 }
 
 img {
   margin: 5px;
-}
-
-.img-profile {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
 }
 
 .img-social {
@@ -30,10 +29,6 @@ img {
   text-align: center;
 }
 
-.grey {
-  color: rgb(194, 189, 189);
-}
-
 .flex {
   display: flex;
   flex-direction: column;
@@ -41,15 +36,24 @@ img {
 
 a {
   display: block;
-  width: 80%;
-  max-width: 900px;
   padding: 10px;
-  background: rgba(170, 154, 12, 0.802);
+  background: #36454f;
   margin: 0 auto;
   border-radius: 15px;
-  color: rgb(255, 251, 0);
+  color: rgba(255, 217, 0, 0.858);
   text-decoration: none;
   opacity: 100;
+}
+
+h2 {
+  margin: 15px 0;
+  color: #4a0404;
+  letter-spacing: 4px;
+  font-weight: 900;
+}
+
+p {
+  margin: 0;
 }
 
 @keyframes scale {
@@ -71,14 +75,13 @@ a {
 }
 
 a:hover {
-  background: rgb(226, 226, 22);
-  color: white;
+  background: #4a0404;
   animation-name: scale;
   animation-duration: 1s;
 }
 
 img:hover {
-  transform: rotate(2deg);
-  animation-name: rotate;
-  animation-duration: 2s;
+  transform: scale(2deg);
+  animation-name: scale;
+  animation-duration: 5s;
 }

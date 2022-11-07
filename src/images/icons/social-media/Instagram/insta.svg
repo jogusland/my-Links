@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 417 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path d="M81.628,396.176c-29.247,-5.99 -55.521,-35.989 -61.301,-65.263c-10.217,-51.743 -10.912,-193.443 -0,-245.193c6.359,-30.154 35.284,-59.043 65.475,-65.307c52.461,-10.884 197.54,-10.203 249.291,0c28.321,5.584 55.562,32.931 61.214,61.223c10.202,51.069 9.55,192.769 -0,245.193c-5.373,29.494 -28.009,62.892 -57.302,69.347c-52.446,11.558 -204.264,10.877 -257.377,0Z" style="fill:#2c99ff;"/><path d="M84.108,137.54c7.362,-24.846 31.714,-46.352 56.715,-53.171c32.493,-8.861 106.341,-8.27 138.243,0c23.468,6.085 46.898,26.208 53.17,49.626c8.862,33.084 8.271,115.793 0,148.877c-5.673,22.696 -26.93,43.952 -49.625,49.626c-33.084,8.271 -115.794,9.453 -148.877,-0c-24.154,-6.901 -43.429,-32.371 -49.626,-56.715c-8.271,-32.493 -9.453,-106.341 -0,-138.243Z" style="fill:#fff;"/><path d="M108.921,148.174l-0,124.064c-0,0 6.504,34.255 38.991,35.447l124.065,0c-0,0 29.641,-1.511 35.447,-35.447l-0,-127.609c-0,0 -0.658,-30.508 -38.992,-35.447l-120.52,0c0,0 -35.798,3.225 -38.991,38.992Z" style="fill:#2c99ff;"/><circle id="white-circle-small" serifId="white circle small" cx="275.521" cy="141.085" r="14.179" style="fill:#fff;"/><ellipse id="white-circle-big" serifId="white circle big" cx="208.172" cy="208.434" rx="70.894" ry="67.349" style="fill:#fff;"/><circle cx="208.172" cy="208.434" r="42.536" style="fill:#2c99ff;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="BG" transform="matrix(1.3048,0,0,1.28234,-14.1573,-14.1964)">
+        <path d="M19,96C11.843,94.534 5.414,87.188 4,80.021C1.5,67.353 1.33,32.66 4,19.989C5.556,12.607 12.634,5.534 20.021,4C32.858,1.335 68.358,1.502 81.021,4C87.951,5.367 94.617,12.063 96,18.989C98.496,31.493 98.337,66.186 96,79.021C94.685,86.243 89.146,94.419 81.979,96C69.145,98.83 31.996,98.663 19,96Z" style="fill:rgb(44,153,255);"/>
+    </g>
+    <g transform="matrix(0.778421,0,0,0.778421,11.1039,11.054)">
+        <path d="M15,30C17.077,22.991 23.947,16.924 31,15C40.167,12.5 61,12.667 70,15C76.621,16.716 83.23,22.393 85,29C87.5,38.333 87.333,61.667 85,71C83.399,77.403 77.403,83.399 71,85C61.667,87.333 38.333,87.667 29,85C22.186,83.053 16.748,75.868 15,69C12.667,59.833 12.333,39 15,30Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0.778421,0,0,0.778421,11.1039,11.054)">
+        <path d="M22,33L22,68C22,68 23.835,77.664 33,78L68,78C68,78 76.362,77.574 78,68L78,32C78,32 77.814,23.393 67,22L33,22C33,22 22.901,22.91 22,33Z" style="fill:rgb(44,153,255);"/>
+    </g>
+    <g id="white-circle-small" serif:id="white circle small" transform="matrix(0.69193,0,0,0.69193,16.7258,13.3893)">
+        <circle cx="69.5" cy="31.5" r="4.5" style="fill:white;"/>
+    </g>
+    <g id="white-circle-big" serif:id="white circle big" transform="matrix(0.864912,0,0,0.821666,5.91441,7.24842)">
+        <circle cx="51" cy="52" r="18" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0.812265,0,0,0.812265,7.381,8.14342)">
+        <circle cx="52.5" cy="51.5" r="11.5" style="fill:rgb(44,153,255);"/>
+    </g>
+</svg>
