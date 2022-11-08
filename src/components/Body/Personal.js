@@ -1,5 +1,4 @@
 import Instagram from "../../images/icons/social-media/Instagram/insta.jpg";
-import Twitter from "../../images/icons/social-media/twitter.svg";
 import Clubhouse from "../../images/icons/social-media/Clubhouse/clubhouse-logo.jpg";
 import Sale from "../../images/icons/sale/sale-icon.svg";
 import Facebook from "../../images/icons/social-media/Facebook/facebook.jpg";
@@ -11,11 +10,6 @@ const Personal = () => {
       name: "Insta",
       img: Instagram,
       href: "https://www.instagram.com/jonicoder/",
-    },
-    {
-      name: "Twitter",
-      img: Twitter,
-      href: "https://twitter.com/jonicoder",
     },
     {
       name: "JoguTV",

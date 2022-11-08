@@ -5,6 +5,7 @@ import Facebook from "../../images/icons/social-media/Facebook/facebook.jpg";
 import Github from "../../images/icons/social-media/Github/github.jpg";
 import Instagram from "../../images/icons/social-media/Instagram/insta.jpg";
 import Youtube from "../../images/icons/social-media/Youtube/youtube.jpg";
+import Twitter from "../../images/icons/social-media/twitter.svg";
 // import ListItems from "../Handler/ListItemsHandler";
 import classes from "./Career.module.css";
 
@@ -19,6 +20,11 @@ const Career = () => {
       name: "Instagram",
       img: Instagram,
       href: "https://www.instagram.com/jonicoder/",
+    },
+    {
+      name: "Twitter",
+      img: Twitter,
+      href: "https://twitter.com/jonicoder",
     },
     {
       name: "LinkedIn",
