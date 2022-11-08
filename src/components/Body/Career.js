@@ -50,6 +50,11 @@ const Career = () => {
       img: "",
       href: "https://medium.com/@jonicoder",
     },
+    {
+      name: "Calendly",
+      img: "",
+      href: "https://calendly.com/jogucareers/15min",
+    },
   ];
 
   return (
