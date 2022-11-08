@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-links/static/css/main.5feafee8.css",
-    "main.js": "/my-links/static/js/main.3a07fbc6.js",
+    "main.js": "/my-links/static/js/main.1c37dbf2.js",
     "static/media/my_photo.jpg": "/my-links/static/media/my_photo.f1ea0ba9401081248e56.jpg",
     "static/media/clubhouse-logo.jpg": "/my-links/static/media/clubhouse-logo.c803f97d188ca7a0e1c4.jpg",
     "static/media/facebook.jpg": "/my-links/static/media/facebook.dd9849963682f3acb63b.jpg",
@@ -14,10 +14,10 @@
     "static/media/linkedin.svg": "/my-links/static/media/linkedin.be2160c5550f84611150ca00031eed79.svg",
     "index.html": "/my-links/index.html",
     "main.5feafee8.css.map": "/my-links/static/css/main.5feafee8.css.map",
-    "main.3a07fbc6.js.map": "/my-links/static/js/main.3a07fbc6.js.map"
+    "main.1c37dbf2.js.map": "/my-links/static/js/main.1c37dbf2.js.map"
   },
   "entrypoints": [
     "static/css/main.5feafee8.css",
-    "static/js/main.3a07fbc6.js"
+    "static/js/main.1c37dbf2.js"
   ]
 }
