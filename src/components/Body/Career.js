@@ -14,7 +14,7 @@ const Career = () => {
     {
       name: "Portfolio",
       img: Website,
-      href: "https://jonicoder1.github.io/myportfolio/",
+      href: "https://www.jonicoder.com/",
     },
     {
       name: "Instagram",
