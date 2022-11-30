@@ -19,7 +19,7 @@ const Career = () => {
     {
       name: "Instagram",
       img: Instagram,
-      href: "https://www.instagram.com/jonicoder/",
+      href: "https://www.instagram.com/windwebsites/",
     },
     {
       name: "Twitter",
@@ -50,6 +50,11 @@ const Career = () => {
       name: "Youtube",
       img: Youtube,
       href: "https://www.youtube.com/user/kelebew/videos",
+    },
+    {
+      name: "Gumroad",
+      img: "",
+      href: "https://jonicoder.gumroad.com/l/website",
     },
     {
       name: "Medium",
