@@ -37,16 +37,6 @@ const Career = () => {
       href: "https://github.com/jonicoder1",
     },
     {
-      name: "Certificate",
-      img: Certificate,
-      href: "https://www.credential.net/475ed24b-f8ab-4f7e-83d5-709f66e1e9de",
-    },
-    {
-      name: "Facebook",
-      img: Facebook,
-      href: "https://www.facebook.com/jonicoder",
-    },
-    {
       name: "Youtube",
       img: Youtube,
       href: "https://www.youtube.com/user/kelebew/videos",
@@ -55,11 +45,6 @@ const Career = () => {
       name: "Gumroad",
       img: "",
       href: "https://jonicoder.gumroad.com/l/website",
-    },
-    {
-      name: "Medium",
-      img: "",
-      href: "https://medium.com/@jonicoder",
     },
     {
       name: "Calendly",
