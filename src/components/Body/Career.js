@@ -19,7 +19,7 @@ const Career = () => {
     {
       name: "Instagram",
       img: Instagram,
-      href: "https://www.instagram.com/windwebsites/",
+      href: "https://www.instagram.com/windowlightmedia/",
     },
     {
       name: "Twitter",
